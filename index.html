@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiaz Mushtaq Portfolio</title>
+
+  <!-- Font Style Poppins  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- for icon font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Build Header -->
+  <header>
+    <nav>
+      <div class="left">Fiaz Mushtaq Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/"> Home</a></li>
+          <li><a href="/"> Academic</a></li>
+          <li><a href="/"> Projects</a></li>
+          <li><a href="/"> About</a></li>
+          <li><a href="/"> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- build main body -->
+  <main>
+    <!-- firstsection -->
+    <section class="firstsection">
+      <div class="leftside"> Hi, I'm <span class="purle">Fiaz Mushtaq</span>
+        and I am a passionate Web Developer and
+        <div>
+          <span id="element"></span>
+        </div>
+
+
+      </div>
+
+      <div class="rightside">
+        <img src="ab.png.jpg" style="width: 430px;height: 410px;border-radius: 50%;">
+      </div>
+    </section>
+
+    <hr>
+    <!-- secondsection -->
+    <section class="secondsection">
+      <span>What I have done so far</span>
+      <h1 class="ab">Academic Details</h1>
+
+      <div class="box">
+        <!-- for University -->
+        <div class="verticl">
+          <img class="iublogo" src="iub.png" alt="">
+          <div class="vertical-title">
+            The Islamia University Of Bahawalpur (2021-25)
+          </div>
+          <div class="vertical-desc">
+            Bachlor Degree in Computer Science
+          </div>
+        </div>
+
+        <!-- for college -->
+        <div class="verticl">
+          <img class="collegelogo" src="college.png" alt="">
+          <div class="vertical-titlec">
+            Govt. Postgraduate College Bahawalnagar (2019-21)
+          </div>
+          <div class="vertical-descc">
+            ICS: Computer Science, Mathematics, Physics
+          </div>
+        </div>
+
+        <!-- for school -->
+        <div class="verticl">
+          <img class="schoollogo" src="images (1) (1).png" alt="">
+          <div class="vertical-titles">
+            Govt. Model High School Bahawalnagar (2016-18)
+          </div>
+          <div class="vertical-descs">
+            Matric Science in Biology
+          </div>
+        </div>
+
+        <!-- for CCA Brain -->
+        <div class="verticl">
+          <img class="brainlogo" src="brain.png" alt="">
+          <div class="vertical-titleb">
+            Brain Institue of Information Technology (Jul-Dec 2025)
+          </div>
+          <div class="vertical-descb">
+            Certificate in Computer Applications
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <br>
+
+    <!-- thirdsection -->
+    <section class="thirdsection">
+      <h1 class="thirdheading">Project</h1>
+      <span class="thirdspan">
+        <div class="thirdleft">
+          <img class="projectimg" src="project.png" alt="">
+        </div>
+        <div class="thirdright">
+          <div>
+            <h1 style="color: rgb(242, 245, 65);">Project Title</h1>
+          </div>
+          <div>
+            <h3 style="margin: 15px 0;">Bio-Matric Initiate Apparatus</h3>
+          </div>
+          <div>
+            <h4>Discription:</h4>
+          </div>
+          <span>
+            <div>
+              <p style="color: rgb(164, 175, 197);">I Create a automation system with extra security feature of Bio
+                Matric System.
+                The Biometric Initiate Apparatus System was implemented using an ESP8266 NodeMCU microcontroller,
+                integrated with a fingerprint sensor for biometric verification. Once a valid fingerprint is detected,
+                the
+                ESP8266 connects to a Wi-Fi network and communicates with the Blynk mobile application. The app provides
+                an interface to control four appliances (two motors and two lights) connected through a 4-channel relay
+                module using C++ Programing Language. Jumper wires were used for hardware connections, and all
+                appliances
+                are operated remotely through the Blynk interface after biometric authentication, ensuring secure and
+                seamless control.</p>
+            </div>
+          </span>
+        </div>
+      </span>
+    </section>
+
+    <!-- fourthsection -->
+    <section class="fourthsection">
+      <span>
+        <div class="fourthleft">
+          <h1 class="abouth1">About me</h1>
+          <p class="aboutp1">I'm a Full Stack Web Developer with hands-on experience in HTML,
+            CSS, JavaScript, Node.js, and MongoDB.I'm fully Experienced to build Websites in WordPress, also
+            enjoy working with Python and Django, and I’ve built projects using
+            C/C , IoT devices, Bylink IoT Platform and basic Machine Learning.
+            Teaching is something I truly enjoy, and I’ve worked as an instructor to
+            help others learn practical tech skills. I'm also skilled in MS Office tools
+            like Word, Excel, and PowerPoint. I love exploring new technologies and
+            building things that make everyday tasks easier and smarter.</p>
+        </div>
+        <div class="fourthright">
+          <img class="aboutmypic" width="45px" src="mypic.png" alt="">
+        </div>
+      </span>
+    </section>
+
+  </main>
+
+  <!-- CDN Library -->
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['html css JavaScript.js', 'php Laravel Dev.', 'WordPress Expert.','Webflow Designer', 'Graphics Designer.', 'MS Office', 'Management Expert.', 'Experinced Instructor.'],
+      typeSpeed: 80,
+      loop: true,
+    });
+  </script>
+
+  <!-- for footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Fiaz's Portfolio. All rights reserved.</p>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <p>Designed by <b>Fiaz Mushtaq Kamboh</b></p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,363 @@
+body {
+    background-color: rgb(0, 0, 33);
+    color: whitesmoke;
+
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(12, 12, 70);
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: rgb(93, 225, 12);
+    font-size: 1.02rem;
+}
+
+nav ul li {
+
+    list-style: none;
+    margin: 0 23px;
+}
+
+span {
+    color: rgb(140, 187, 31);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+header {
+    color: white;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 55px 1px;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 35%;
+}
+
+.leftside {
+    font-size: 3rem;
+    margin: 80px;
+
+}
+
+.rightside img {
+    width: 500px;
+    height: 500px;
+
+}
+
+img {
+    border: 5px solid rgb(116, 160, 13);
+}
+
+main div div span {
+    color: rgb(70, 77, 118);
+}
+
+/* Second section */
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 28em;
+
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(133, 133, 176);
+    height: 1.3px;
+    margin: 25px 80px;
+}
+
+.ab {
+    font-size: 30px;
+}
+
+.secondsection span {
+    color: rgb(175, 206, 241);
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 70px 1px;
+    display: flex;
+}
+
+.secondsection .verticl {
+
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 125px;
+}
+
+
+
+/* for University */
+.vertical-title {
+    position: relative;
+    width: 175px;
+    top: 56.5px;
+    left: -77px;
+}
+
+.vertical-desc {
+    position: relative;
+    width: 122px;
+    top: 56px;
+    left: -55px;
+    margin: 6px;
+    color: rgb(146, 161, 179);
+    font-size: 14px;
+}
+
+.iublogo {
+    position: relative;
+    width: 85px;
+    top: -58px;
+    left: -43px;
+    border: 0cap;
+}
+
+/* for college */
+.vertical-titlec {
+    position: relative;
+    width: 180px;
+    top: 67px;
+    left: -77px;
+}
+
+.vertical-descc {
+    position: relative;
+    width: 160px;
+    top: 66px;
+    left: -70px;
+    margin: 5px;
+    color: rgb(146, 161, 179);
+    font-size: 14px;
+}
+
+.collegelogo {
+    position: relative;
+    width: 45px;
+    top: -57px;
+    left: -23px;
+    border: 0cap;
+}
+
+/* for School */
+.vertical-titles {
+    position: relative;
+    width: 175px;
+    top: 53px;
+    left: -77px;
+}
+
+.vertical-descs {
+    position: relative;
+    width: 220px;
+    top: 56px;
+    left: -80px;
+    margin: 5px;
+    color: rgb(146, 161, 179);
+    font-size: 14px;
+}
+
+.schoollogo {
+    position: relative;
+    width: 66px;
+    top: -61px;
+    left: -32px;
+    border: 0cap;
+}
+
+/* for brain college */
+.vertical-titleb {
+    position: relative;
+    width: 190px;
+    top: 53px;
+    left: -77px;
+}
+
+.vertical-descb {
+    position: relative;
+    width: 260px;
+    top: 56px;
+    left: -90px;
+    margin: 5px;
+    color: rgb(146, 161, 179);
+    font-size: 14px;
+}
+
+.brainlogo {
+    position: relative;
+    width: 78px;
+    top: -54px;
+    left: -39px;
+    border: 0cap;
+}
+
+/* thirdsection */
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 32em;
+    background-color: rgb(15, 30, 48);
+    border-radius: 5%;
+
+}
+
+.thirdsection .thirdheading {
+    font-size: 35px;
+    padding: 0 50px;
+    
+}
+
+.thirdsection .thirdspan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    color: white;
+}
+
+.thirdsection .projectimg {
+    max-width: 80vw;
+    margin: auto;
+    height: 25em;
+
+}
+
+.thirdsection .thirdleft>.projectimg {
+    position: relative;
+    width: 450px;
+    top: 210px;
+    left: -30px;
+    border: 0cap;
+
+}
+
+.thirdsection .thirdright {
+    position: relative;
+    width: 450px;
+    top: 210px;
+    left: -110px;
+    border: 0cap;
+}
+
+.thirdsection div {
+
+    margin: 0 2px;
+
+}
+
+.thirdsection div {
+
+    width: 550px;
+
+}
+
+/* fourthsection */
+
+.fourthsection span {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(36, 36, 47);
+    max-width: 80vw;
+    margin: 50px 115px;
+    color: white;
+    height: 28rem;
+    border-radius: 30%;
+}
+
+.fourthsection span div {
+    width: 40%;
+}
+
+.fourthsection .aboutmypic {
+    position: relative;
+    width: 420px;
+    background-color: rgb(18, 23, 21);
+    left: -10px;
+    border: 0cap;
+        border-radius: 180px;
+        box-shadow: 1px 20px 20px rgb(19, 192, 204);
+}
+.fourthsection .abouth1{
+    line-height: 2;
+    color: aqua;
+}
+.fourthsection .aboutp1{
+    width: 500px;
+    color: rgb(207, 203, 203);
+}
+
+/* footer Section */
+.footer {
+    background-color: #051429;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+.footer .social-icons {
+    margin: 10px 0;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #00aced;
+}
+
+.footer p {
+    margin: 5px 0;
+    opacity: 0.8;
+}
